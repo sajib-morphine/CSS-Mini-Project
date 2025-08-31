@@ -1,0 +1,147 @@
+@media (max-width:1140px){
+    header .nav-left ul li a{
+        font-size: 12px;
+    }
+     header .nav-left ul li{
+        display:none;
+     }
+     .logo img{
+        width:80px;
+     }
+    .nav-left .search{
+        padding:0 4px 0 8px;
+        height:30px;
+    }
+    .nav-right{
+        gap:15px;
+        padding:8px 16px;
+    }
+    .nav-right .notification .not-icon,.nav-right p,.dashboard{
+        font-size: 12px;
+    }
+    .hero-section{
+        padding: 40px;
+        gap:15px;
+    }
+    .hero-section h2{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .hero-section p{
+        margin-bottom: 6px;
+        font-size: 12px;
+    }
+    .hero-section button{
+        padding:8px 40px;
+        margin-bottom: 15px; 
+    }
+    .hero-section h4{
+        margin-bottom: 6px;
+        font-size: 12px;
+    }
+    .hero-section .brand img{
+        margin:0px 3px 3px 0px;
+        max-width: 100%;
+        height:auto;
+    }
+    section.upcoming{
+        margin: 40px auto;
+    }
+    .upcoming h2{
+        font-size: 24px;
+        padding:8px;
+        margin-bottom: 8px;
+    }
+    .upcoming h2 .Load-logo{
+        margin-right: 6px;
+    }
+    .category{
+        margin-left:15px;
+    }
+    category div h4{
+        font-size: 12px;
+    }
+    
+    footer button{
+        margin-bottom: 8px;
+    }
+}
+@media (max-width:992px){
+    .category {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .course-card {
+        flex-basis:47%;
+    }
+    .hero-section .brand img{
+        display: inline-block;
+    }
+    footer button{
+        margin-bottom: 6px;
+    }
+    footer div h3{
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+    footer div p{
+        margin-bottom: 6px;
+        font-size: 10px;
+    }
+    footer button{
+        padding:6px 16px;
+    }
+    footer div .foot-logo{
+        width:80px;
+        margin-bottom: 8px;
+    }
+    footer{
+        padding:8px;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+    .nav-right .course{
+        padding: 6px 16px;
+    }
+    
+}
+@media (max-width:560px){
+    header .logo img{
+        width:60px;
+    }
+    header .nav-left{
+        gap:5px;
+    }
+    header .course{
+        display: none;
+    }
+     .nav-left .search{
+       display: none;
+     }
+     .nav-left .search-icon{
+        margin-left:10px;
+        background: #f9f9fa;
+        border-radius: 20px;
+        font-size: 20px;
+     }
+     .hero-section h2{
+        font-size: 50px;
+    }
+    .hero-section{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .category{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .course-card{
+        flex-basis: 100%;
+    }
+    footer{
+        display: inline-block;
+    }
+    footer div{
+        margin: 5px auto;
+    }
+     .dashboard{
+        padding:4px 12px;
+     }
+}
